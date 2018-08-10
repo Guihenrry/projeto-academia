@@ -1,0 +1,13 @@
+/*=== cabeçalho ===*/
+.cabecalho {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #1d1715;
+	color: #fff;
+}
+
+.cabecalho img {
+	width: 60px;
+}
