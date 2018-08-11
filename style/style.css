@@ -11,3 +11,47 @@
 .cabecalho img {
 	width: 60px;
 }
+
+.cabecalho h1 {
+	font-size: 1.5rem;
+}
+/*=== Menu ===*/
+/*--- botões ---*/
+.btnMenu {
+	color: #fff;
+}
+
+.btnSair {
+	background-color: #F6930E;
+}
+/*--- item ---*/
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	transform: translateX(100%);
+}
+
+.menu_opem {
+	transform: translateX(0);
+}
+
+.menu-item:first-child {
+	border: none;
+}
+
+.menu-item {
+	border-bottom: 1px solid rgba(33, 33, 33,.5);
+	padding: 15px;
+}
+
+.menu-item-action {
+	text-transform: uppercase;
+	color: #1d1715; 
+}
