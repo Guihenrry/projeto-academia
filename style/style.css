@@ -41,14 +41,12 @@
 	left: 0;
 	width: 100%;
 	background-color: #fff;
-	display: none;
 	text-align: center;
-	transform: translateX(100%);
-
+	
+	display: none;
 }
 
 .menu_opem {
-	transform: translateX(0);
 	display: flex;
 	flex-direction: column;
 }
@@ -70,4 +68,20 @@
 .menu-item-action:hover {
 	color: #F6930E;
 	font-weight: 400;
+}
+
+/* Rodape */
+.rodape {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: rgba(255,255,255,.5);
+	background-color: #1d1715;
+	padding: 10px;
+}
+
+.rodape-logo {
+	width: 100px;
 }
