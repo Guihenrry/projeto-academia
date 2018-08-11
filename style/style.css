@@ -21,8 +21,18 @@
 	color: #fff;
 }
 
+.btnMenu:hover {
+	color: #F6930E;
+}
+
 .btnSair {
+	cursor: pointer;
 	background-color: #F6930E;
+}
+
+.btnSair:hover {
+	color: #1d1715;
+	background-color: #f4760e;
 }
 /*--- item ---*/
 .menu {
@@ -55,4 +65,9 @@
 .menu-item-action {
 	text-transform: uppercase;
 	color: #1d1715; 
+}
+
+.menu-item-action:hover {
+	color: #F6930E;
+	font-weight: 400;
 }
