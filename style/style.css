@@ -41,16 +41,16 @@
 	left: 0;
 	width: 100%;
 	background-color: #fff;
-	display: flex;
-	flex-direction: column;
+	display: none;
 	text-align: center;
-
 	transform: translateX(100%);
-	transition: transform 200ms linear;
+
 }
 
 .menu_opem {
 	transform: translateX(0);
+	display: flex;
+	flex-direction: column;
 }
 
 .menu-item:first-child {
