@@ -69,7 +69,11 @@
 	color: #F6930E;
 	font-weight: 400;
 }
-
+/*=== Banner ===*/
+.banner img {
+	width: 100%;
+	
+}
 /* Rodape */
 .rodape {
 	display: flex;
