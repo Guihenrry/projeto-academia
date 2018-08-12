@@ -69,9 +69,30 @@
 	color: #F6930E;
 	font-weight: 400;
 }
+
 /*=== Banner ===*/
 .foto {
 	width: 100%;
+}
+
+/*=== Conteudo Principal ===*/
+.principal {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 20px;
+}
+
+.conteudo h2{
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.conteudo:first-child {
+	margin-bottom: 30px;
+}
+.conteudo p {
+	font-size: 1.2rem;
 }
 /* Rodape */
 .rodape {
