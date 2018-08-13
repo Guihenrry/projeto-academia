@@ -1,7 +1,6 @@
 /*=== Estilo do tab ===*/
 .tab {
 	overflow: hidden;
-	border: 1px solid #f4760e;
 	background-color: #F6930E;
 	display: flex;
 	align-items: center;
@@ -20,11 +19,13 @@
 }
 
 .tab button:hover {
-	background-color: #f4760e;
+	background-color: #f26e02;
+	color: #fff;
 }
 
 .tab button.active {
-	background-color: #f23f0e;
+	background-color: #e05008;
+	color: #fff;
 }
 
 /*=== Estilo da tab content ===*/

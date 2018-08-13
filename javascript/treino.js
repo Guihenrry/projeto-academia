@@ -1,3 +1,5 @@
+document.getElementById("aberto").click();// elemento que vai começar aberto
+
 function openTreino(evt, nameTreino){
 	var tabcontent, tablinks;
 
