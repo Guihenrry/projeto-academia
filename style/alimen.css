@@ -36,6 +36,16 @@
 	padding: 5px;
 }
 /* Estilo do butões da tab */
+.tab_dia {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 10px;
+}
+.tab_dia-btns {
+	display: flex;
+	justify-content: space-around;
+}
 .tab_dia-btn {
 	background-color: #fff;
 	padding: 10px;
