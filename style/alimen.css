@@ -1,4 +1,4 @@
-/* estilo da do objetivo e da tabela */
+/* Estilo do objetivo e da tabela */
 .objetivo-tabela {
 	display: flex;
 	flex-direction: column;
@@ -34,4 +34,19 @@
 	background-color: #9E9E9E;
 	border: 1px solid black;
 	padding: 5px;
+}
+/* Estilo do butões da tab */
+.tab_dia-btn {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.tab_dia-btn:hover {
+	background-color: #f7b762;
+}
+
+.tab_dia-btn.active {
+	background-color: #F6930E;
 }
