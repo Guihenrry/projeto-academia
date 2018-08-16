@@ -1,6 +1,6 @@
 document.getElementById("aberto").click();// elemento que vai começar aberto
 
-function openTreino(evt, nameTreino){
+function openContent(evt, idContent){
 	var tabcontent, tablinks;
 
 	/* Deixar todos os conteudo com display none*/
@@ -16,7 +16,7 @@ function openTreino(evt, nameTreino){
 	}
 
 	/* show no conteudo e colocar active no botão*/
-	document.getElementById(nameTreino).style.display = "block";
+	document.getElementById(idContent).style.display = "block";
 	evt.currentTarget.className += " active";
 }
 

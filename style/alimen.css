@@ -36,27 +36,54 @@
 	padding: 5px;
 }
 /* Estilo do butões da tab */
-.tab_dia {
+.refecoes {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 30px 10px;
 }
-.tab_dia-btns {
+.tab {
 	display: flex;
 	justify-content: space-around;
 }
-.tab_dia-btn {
+.tablinks {
 	background-color: #fff;
 	padding: 10px;
 	border-radius: 10px;
 	outline: none;
 }
 
-.tab_dia-btn:hover {
+.tablinks:hover {
 	background-color: #f7b762;
 }
 
-.tab_dia-btn.active {
+.tablinks.active {
 	background-color: #F6930E;
+}
+
+/* Estilo dos conteudo da tab*/
+.tabcontent {
+	width: 100%;
+	display: none;
+	text-align: center;
+}
+
+.tabcontent h3{
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.tabcontent p{
+	font-size: 1.2rem;
+}
+
+/* Efeito quando escolhi um treino */
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
