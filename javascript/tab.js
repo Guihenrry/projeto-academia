@@ -16,7 +16,7 @@ function openContent(evt, idContent){
 	}
 
 	/* show no conteudo e colocar active no botão*/
-	document.getElementById(idContent).style.display = "block";
+	document.getElementById(idContent).style.display = "flex";
 	evt.currentTarget.className += " active";
 }
 

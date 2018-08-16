@@ -31,6 +31,7 @@
 /*=== Estilo da tab content ===*/
 .tabcontent {
 	display: none;
+	flex-direction: column;
 	padding: 30px 20px;
 }
 
