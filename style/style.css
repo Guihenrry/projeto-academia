@@ -8,11 +8,17 @@
 	color: #fff;
 }
 
-.cabecalho img {
+.logo {
 	width: 60px;
+	height: 60px;
+	background-image: url(.././img/logo-mobile.png);
+	background-repeat: no-repeat;
+	background-size: 60px;
+	font-size: 0;
 }
 
 .cabecalho h1 {
+	text-align: center;
 	font-size: 1.5rem;
 }
 /*=== Menu ===*/
@@ -56,6 +62,7 @@
 }
 
 .menu-item {
+	list-style: none;
 	border-bottom: 1px solid rgba(33, 33, 33,.5);
 	padding: 15px;
 }
@@ -108,4 +115,43 @@
 
 .rodape-logo {
 	width: 100px;
+}
+/* MOBILE FIRST */
+/* SMAL DEVICE - TABLETES */
+@media screen and (min-width: 768px) {
+	.logo {
+		width: 200px;
+		background-image: url(.././img/logo.png);
+		background-size: 200px;
+		background-position: center;
+	}
+
+	.btnMenu {
+		display: none;
+	}
+
+	.btnSair {
+		display: none;
+	}
+
+	.menu {
+		position: static;
+		display: flex;
+		background-color: inherit;
+	}
+
+	.menu-item {
+		border-bottom: none;
+		padding: 15px;
+	}
+
+	.menu-item-action {
+		text-transform: uppercase;
+		color: #fff; 
+	}
+
+	.menu-item-action:hover {
+		color: #F6930E;
+		font-weight: 300;
+	}
 }

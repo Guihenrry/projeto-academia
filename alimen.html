@@ -11,9 +11,10 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
+
 	<!-- Cabeçalho com menu e logo e titulo da pagina-->
 	<header class="cabecalho">
-		<a href="index.html"><img src="./img/logo-mobile.png"></a>
+		<a href="index.html" class="logo">logo</a>
 		<h1>Alimentação</h1>
 		<nav>
 			<a href="#menu" class="btnMenu"><i class="fas fa-bars fa-lg"></i></a>
@@ -87,7 +88,7 @@
 	<section class="refeicoes">
 		<!-- Tab links-->
 		<div class="tab">
-			<button class="tablinks" onclick="openContent(event, 'dom')">Dom</button>
+			<button class="tablinks" onclick="openContent(event, 'dom')" id="aberto">Dom</button>
 			<button class="tablinks" onclick="openContent(event, 'seg')">Seg</button>
 			<button class="tablinks" onclick="openContent(event, 'ter')">Ter</button>
 			<button class="tablinks" onclick="openContent(event, 'qua')">Qua</button>
@@ -298,6 +299,7 @@
 		<img src="./img/logo-rodape.png" class="rodape-logo">
 		<p>&copy esse site é apenas um teste- Guilherme Henrry</p>
 	</footer>
+
 
 	<script type="text/javascript" src="./javascript/menu.js"></script>
 	<script type="text/javascript" src="./javascript/tab.js"></script>
